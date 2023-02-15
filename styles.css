@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-image: url(pattern-beige-tiles.png);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+main, nav {
+    display: flex;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+article {
+    background: white;
+    padding: 20px;
+    margin: 30px auto;
+    width: 60%;
+}
+
+p {
+    line-height: 120%;
+    margin: 20 10px;
+}
+
+header {
+    background-color: white;
+    border-bottom: 2px solid black;
+}
+
+aside {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 30px 20px;
+    max-height: 120px;
+    max-width: 400px;
+    align-items: flex-start;
+    justify-content: center;
+    background: white;
+    width: 30%;
+    padding: 20px 0;
+}
+
+.icon { 
+    margin: 0 5px;
+    display: flex; 
+    flex-direction: column;
+    box-shadow: 2px 2px 4px;
+}
+
+footer {
+    background-color: burlywood;
+    border-top: 2px solid black;
+    padding: 10px;
+    text-align: center;
+    margin-top: auto;
+    font-size: 16px;
+}
+
+.Patrick-Wright {
+    margin-right: auto;
+    color: black;
+    text-decoration: none;
+    background: burlywood;
+    font-weight: bold;
+    font-size: 24px;
+    padding: 20px;
+}
+
+.link {
+    justify-content: space-between;
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 0 30px;
+    align-self: center;
+}
+
+.border-link {
+    justify-content: space-between;
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 0 30px;
+    border-left: 2px  solid black;
+    border-right: 2px solid black;
+    align-self: center;
+}
+
+h1, h2 {
+    border-bottom: 2px solid black;
+}
+
+h2 {
+    margin: 20px;
+}
+
+.headshot {
+    float: left;
+    margin: 0 20px 5px 0;
+    box-shadow: 2px 2px 5px;
+}
